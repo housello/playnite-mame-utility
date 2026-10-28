@@ -68,6 +68,12 @@ namespace MAMEUtility.Configuration
                 },
                 new MainMenuItem
                 {
+                    MenuSection = "@" + MAMEUtilityPlugin.PluginName + "|Cataloguer",
+                    Description = "Tag machines",
+                    Action = (args) => MachineTagger.tagSelectedGames()
+                },
+                new MainMenuItem
+                {
                     MenuSection = "@" + MAMEUtilityPlugin.PluginName + "|Cleaner",
                     Description = "Remove non-Games from selection",
                     Action = (args) => GameCleaner.removeSelectedNonGames()

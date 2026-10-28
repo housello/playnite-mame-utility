@@ -65,6 +65,7 @@
     <Compile Include="Services\Library\GameCleaner.cs" />
     <Compile Include="Services\Library\GameRenamer.cs" />
     <Compile Include="Services\Library\GameTagger.cs" />
+    <Compile Include="Services\Library\MachineTagger.cs" />
     <Compile Include="Services\Engine\Platforms\FBNeo\FBNeoMachinesService.cs" />
     <Compile Include="Services\Engine\Platforms\FBNeo\private\FBNeoMachinesFileLoader.cs" />
     <Compile Include="Services\Engine\Platforms\FBNeo\private\FBNeoMachinesParser.cs" />
